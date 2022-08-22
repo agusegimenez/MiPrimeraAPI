@@ -1,6 +1,8 @@
 ﻿using MiPrimeraAPI.Model;
 using System.Data.SqlClient;
 
+/*
+
 namespace MiPrimeraAPI.Repository
 {
     public static class ProductoHandler
@@ -13,3 +15,5 @@ namespace MiPrimeraAPI.Repository
         }
     }
 }
+
+*/

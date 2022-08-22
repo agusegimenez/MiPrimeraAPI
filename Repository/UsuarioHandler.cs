@@ -5,7 +5,7 @@ namespace MiPrimeraAPI.Repository
 {
     public static class UsuarioHandler
     {
-        public const string ConnectionString = "Server=XXXXXX;Database=SistemaGestion;Trusted_Connection=True";
+        public const string ConnectionString = "Server=LAPTOP-UMJOUFAT;Database=SistemaGestion;Trusted_Connection=True";
 
         public static List<Usuario> GetUsuarios()
         {

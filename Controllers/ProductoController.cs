@@ -2,6 +2,8 @@
 using MiPrimeraAPI.Model;
 using MiPrimeraAPI.Repository;
 
+/*
+
 namespace MiPrimeraAPI.Controllers
 {
     [ApiController]
@@ -9,10 +11,11 @@ namespace MiPrimeraAPI.Controllers
     public class ProductoController : ControllerBase
     {
         [HttpGet(Name = "GetProductos")]
-
         public List<Producto> GetProductos()
         {
             return ProductoHandler.GetProductos();
         } 
     }
 }
+
+*/
