@@ -1,4 +1,5 @@
-﻿using System.Data.SqlClient;
+﻿using MiPrimeraAPI.Model;
+using System.Data.SqlClient;
 
 namespace MiPrimeraAPI.Repository
 {
@@ -6,6 +7,9 @@ namespace MiPrimeraAPI.Repository
     {
         public const string ConnectionString = "Server=XXXXXX;Database=SistemaGestion;Trusted_Connection=True";
 
-        using (SqlConnection sqlConnection = 
+        public static List<Producto> GetProductos()
+        {
+
+        }
     }
 }
