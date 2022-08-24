@@ -2,6 +2,10 @@
 using System.Data;
 using System.Data.SqlClient;
 
+<<<<<<< HEAD
+=======
+/*
+>>>>>>> 681c214b388267f32fdc550c7c48ad31d1d0069b
 
 namespace MiPrimeraAPI.Repository
 {
@@ -49,4 +53,10 @@ namespace MiPrimeraAPI.Repository
             return productos;
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+
+*/
+>>>>>>> 681c214b388267f32fdc550c7c48ad31d1d0069b
