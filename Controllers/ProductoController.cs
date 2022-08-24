@@ -3,6 +3,10 @@ using MiPrimeraAPI.Model;
 using MiPrimeraAPI.Repository;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/*
+>>>>>>> 681c214b388267f32fdc550c7c48ad31d1d0069b
 =======
 /*
 >>>>>>> 681c214b388267f32fdc550c7c48ad31d1d0069b
@@ -21,8 +25,13 @@ namespace MiPrimeraAPI.Controllers
     }
 <<<<<<< HEAD
 }
+<<<<<<< HEAD
 =======
 }
+
+*/
+>>>>>>> 681c214b388267f32fdc550c7c48ad31d1d0069b
+=======
 
 */
 >>>>>>> 681c214b388267f32fdc550c7c48ad31d1d0069b
