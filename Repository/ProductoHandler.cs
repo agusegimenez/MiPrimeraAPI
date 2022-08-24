@@ -2,20 +2,11 @@
 using System.Data;
 using System.Data.SqlClient;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-/*
->>>>>>> 681c214b388267f32fdc550c7c48ad31d1d0069b
-=======
-/*
->>>>>>> 681c214b388267f32fdc550c7c48ad31d1d0069b
-
 namespace MiPrimeraAPI.Repository
 {
     public static class ProductoHandler
     {
-        public const string ConnectionString = "Server=XXXXXX;Database=SistemaGestion;Trusted_Connection=True";
+        public const string ConnectionString = "Server=LAPTOP-UMJOUFAT;Database=SistemaGestion;Trusted_Connection=True";
 
         public static List<Producto> GetProductos()
         {
@@ -57,15 +48,4 @@ namespace MiPrimeraAPI.Repository
             return productos;
         }
     }
-<<<<<<< HEAD
 }
-<<<<<<< HEAD
-=======
-}
-
-*/
->>>>>>> 681c214b388267f32fdc550c7c48ad31d1d0069b
-=======
-
-*/
->>>>>>> 681c214b388267f32fdc550c7c48ad31d1d0069b
