@@ -18,7 +18,7 @@ namespace MiPrimeraAPI.Repository
                 {
                     sqlCommand.Connection = sqlConnection;
                     sqlCommand.Connection.Open();
-                    sqlCommand.CommandText = "SELECT * FROM Productos";
+                    sqlCommand.CommandText = "SELECT * FROM Producto";
 
                     SqlDataAdapter sqlDataAdapter = new SqlDataAdapter();
                     sqlDataAdapter.SelectCommand = sqlCommand;
@@ -35,10 +35,10 @@ namespace MiPrimeraAPI.Repository
 
                         producto.Id = Convert.ToInt32(data["Id"]);
                         producto.Descripciones = data["Descripciones"].ToString();
-                        producto.Costo = Convert.ToInt32(data["Id"]);
-                        producto.PrecioVenta = Convert.ToInt32(data["Id"]);
-                        producto.Stock = Convert.ToInt32(data["Id"]);
-                        producto.IdUsuario = Convert.ToInt32(data["Id"]);
+                        producto.Costo = Convert.ToInt32(data["Costo"]);
+                        producto.PrecioVenta = Convert.ToInt32(data["PrecioVenta"]);
+                        producto.Stock = Convert.ToInt32(data["Stock"]);
+                        producto.IdUsuario = Convert.ToInt32(data["IdUsuario"]);
 
                         productos.Add(producto);
                     }
