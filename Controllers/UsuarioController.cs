@@ -13,5 +13,13 @@ namespace MiPrimeraAPI.Controllers
         {
             return UsuarioHandler.GetUsuarios();
         }
+
+        /*
+        [HttpDelete(Name = "BorrarUsuario")]
+        public void BorrarUsuario()
+        {
+            return UsuarioHandler.BorrarUsuario();
+        }
+        */
     }
 }
